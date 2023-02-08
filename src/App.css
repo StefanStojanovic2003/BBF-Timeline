@@ -69,8 +69,88 @@ p {
 .highlight {
   content: url("https://bbf.mineweb.rs/wp-content/uploads/2023/01/ikonica-time-live.svg");
   position: absolute;
-  right: 450px;
+  margin-left: 200px;
   margin-top: -15px;
 }
 
+@media only screen and (max-width: 1200px){
+  .container {
+    width: 1000px;
+  }
 
+  .highlight {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1020px){
+  .container {
+    width: 800px;
+  }
+
+  .highlight {
+    margin-left: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 810px){
+  .container {
+    width: 680px;
+  }
+
+  .box {
+    padding: 50px 30px;
+  }
+
+  h1 {
+    display: block;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  p {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .highlight {
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: -15px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .container {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 620px){
+  .container {
+    width: 550px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 570px){
+  .container {
+    width: 80%;
+  }
+}
