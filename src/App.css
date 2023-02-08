@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Aileron', sans-serif;
+  background-color: #212A56;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1, p, span{
+  background-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: #F5C314;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.09em;
+  display: inline-block;
+  margin-right: 40px;
 }
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.09em;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+
+.box1, .box4 {
+  background-color: rgba(145, 197, 226, 0.2);
+}
+
+.box2, .box8 {
+  background-color: rgba(209, 132, 222, 0.2);
+}
+
+.box3 {
+  background-color: rgba(172, 222, 132, 0.4);
+}
+
+.box5 {
+  background-color: rgba(209, 132, 222, 0.4);
+}
+
+.box6, .box9 {
+  background-color: rgba(172, 222, 132, 0.2);
+}
+
+.box7 {
+  background-color: rgba(145, 197, 226, 0.4);;
+}
+
+.highlight {
+  content: url("https://bbf.mineweb.rs/wp-content/uploads/2023/01/ikonica-time-live.svg");
+  position: absolute;
+  right: 450px;
+  margin-top: -15px;
+}
+
+
