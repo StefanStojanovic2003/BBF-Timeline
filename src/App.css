@@ -85,7 +85,7 @@ p {
   }
 
   .box {
-    padding: 50px 30px;
+    padding: 40px 30px;
   }
 
   h1 {
@@ -99,6 +99,7 @@ p {
     display: block;
     text-align: center;
     margin-left: 0;
+    margin-bottom: 10px;
   }
 
   .box {
@@ -108,6 +109,8 @@ p {
   }
 
   .highlight {
+    position: relative;
+    right: 0;
     width: 60px;
     height: 40px;
   }
