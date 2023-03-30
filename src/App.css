@@ -40,6 +40,7 @@ p {
   display: flex;
   align-items: center;
   padding: 50px 30px 50px 30px;
+  position: relative;
 }
 
 .box1, .box4, .box10 {
@@ -68,6 +69,8 @@ p {
 
 .highlight {
   content: url("https://bbf.mineweb.rs/wp-content/uploads/2023/01/ikonica-time-live.svg");
+  position: absolute;
+  right: 30px;
 }
 
 @media only screen and (max-width: 1200px){
