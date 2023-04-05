@@ -42,7 +42,7 @@ p {
 }
 
 .languageSwitcher {
-  display: inline-block;
+  display: block;
   float: right;
   margin-top: 19px;
 }
