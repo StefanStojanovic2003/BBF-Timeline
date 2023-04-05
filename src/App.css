@@ -6,6 +6,10 @@
   color: white;
 }
 
+.srb {
+  display: block;
+}
+
 h1, p, span{
   background-color: transparent;
 }
@@ -25,15 +29,37 @@ p {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0.09em;
+}
+
+.content {
   display: inline-block;
   margin-left: 40px;
 }
 
-.container {
+.contentBox {
   width: 1140px;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+}
+
+.languageSwitcher {
+  display: inline-block;
+  float: right;
+  margin-top: 19px;
+}
+
+.languageSwitcher span:hover {
+  color: #F5C314;
+  cursor: pointer;
+}
+
+img {
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.container{ 
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .box {
@@ -73,19 +99,36 @@ p {
   right: 30px;
 }
 
+.footer {
+  background-color: #1C2346;
+  padding: 17px 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+}
+
 @media only screen and (max-width: 1200px){
-  .container {
+  .contentBox {
     width: 1000px;
+  }
+
+  img{
+    margin-left: 400px;
   }
 }
 
 @media only screen and (max-width: 1020px){
-  .container {
+  .contentBox {
     width: 800px;
   }
 
   .box {
     padding: 40px 30px;
+  }
+
+  img{
+    margin-left: 0;
   }
 
   h1 {
@@ -95,7 +138,7 @@ p {
     margin-bottom: 10px;
   }
 
-  p {
+  .content {
     display: block;
     text-align: center;
     margin-left: 0;
@@ -114,22 +157,27 @@ p {
     width: 60px;
     height: 40px;
   }
+
+  .container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }
 
 @media only screen and (max-width: 810px){
-  .container {
+  .contentBox {
     width: 680px;
   }
 }
 
 @media only screen and (max-width: 700px){
-  .container {
+  .contentBox {
     width: 600px;
   }
 }
 
 @media only screen and (max-width: 620px){
-  .container {
+  .contentBox {
     width: 550px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -137,7 +185,7 @@ p {
 }
 
 @media only screen and (max-width: 570px){
-  .container {
-    width: 80%;
+  .contantBox {
+    width: 70%;
   }
 }
