@@ -181,8 +181,6 @@ img {
 @media only screen and (max-width: 620px){
   .contentBox {
     width: 550px;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 }
 
