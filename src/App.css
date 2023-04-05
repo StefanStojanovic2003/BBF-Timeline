@@ -180,12 +180,6 @@ img {
 
 @media only screen and (max-width: 620px){
   .contentBox {
-    width: 550px;
-  }
-}
-
-@media only screen and (max-width: 570px){
-  .contantBox {
-    width: 70%;
+    width: 90%
   }
 }
