@@ -67,8 +67,7 @@ const Highlight = () => {
                 <img src={logo} />
                 <p className='languageSwitcher'><span onClick={switchLanguagetoSr}>SR</span> / <span onClick={switchLanguagetoEn}>EN</span></p>
 
-                <div className='srb' style={{
-                    display: (language === "sr")?"block": "none"}}>
+                <div className='srb' style={{display: (language === "sr")?"block": "none"}}>
                     <div className='container'>
                         <div className='box box1'>
                             <h1>08:30 – 09:00</h1>
@@ -137,20 +136,19 @@ const Highlight = () => {
                             <span className={showIcon10}></span>
                         </div>
                         <div className='box box11'>
-                            <h1>17.30 – 19.00</h1>
+                            <h1>17:30 – 19:00</h1>
                             <p className="content">VIP sesija - TIHA POSLOVNA EVOLUCIJA</p>
                             <span className={showIcon11}></span>
                         </div>
                         <div className='box box12'>
-                            <h1>19.00 – 23.00</h1>
+                            <h1>19:00 – 23:00</h1>
                             <p className="content">VIP svečana večera – za učesnike sa VIP paketom</p>
                             <span className={showIcon12}></span>
                         </div>
                     </div>
                 </div>
 
-                <div className='eng' style={{
-                    display: (language === "en")?"block": "none"}}>
+                <div className='eng' style={{display: (language === "en")?"block": "none"}}>
                     <div className='container'>
                         <div className='box box1'>
                             <h1>08:30 – 09:00</h1>
@@ -220,12 +218,12 @@ const Highlight = () => {
                             <span className={showIcon10}></span>
                         </div>
                         <div className='box box11'>
-                            <h1>17.30 – 19.00</h1>
+                            <h1>17:30 – 19:00</h1>
                             <p className="content">VIP session – SILENT BUSINESS EVOLUTION</p>
                             <span className={showIcon11}></span>
                         </div>
                         <div className='box box12'>
-                            <h1>19.00 – 23.00</h1>
+                            <h1>19:00 – 23:00</h1>
                             <p className="content">VIP gala dinner</p>
                             <span className={showIcon12}></span>
                         </div>
