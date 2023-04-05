@@ -68,8 +68,7 @@ const Highlight = () => {
                 <p className='languageSwitcher'><span onClick={switchLanguagetoSr}>SR</span> / <span onClick={switchLanguagetoEn}>EN</span></p>
 
                 <div className='srb' style={{
-                    display: (language === "sr")?"block": "none"
-                }}>
+                    display: (language === "sr")?"block": "none"}}>
                     <div className='container'>
                         <div className='box box1'>
                             <h1>08:30 – 09:00</h1>
@@ -151,8 +150,7 @@ const Highlight = () => {
                 </div>
 
                 <div className='eng' style={{
-                    display: (language === "en")?"block": "none"
-                }}>
+                    display: (language === "en")?"block": "none"}}>
                     <div className='container'>
                         <div className='box box1'>
                             <h1>08:30 – 09:00</h1>
