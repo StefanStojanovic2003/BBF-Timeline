@@ -49,7 +49,7 @@ p {
 }
 
 .languageSwitcher span:hover {
-  color: #F5C314;
+  color: #F5C314 !important;
   cursor: pointer;
 }
 

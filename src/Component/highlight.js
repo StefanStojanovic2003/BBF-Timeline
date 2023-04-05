@@ -34,6 +34,8 @@ const Highlight = () => {
 
     useEffect(() => {
 
+
+
         if((day ===6 && month === 4) && (hours === 8 && minutes >= 30 && hours <=9)){
             setShowIcon1("highlight");
         }else if(day ===6 && month === 4 && hours === 9 && minutes >= 0 && minutes <= 15){
@@ -65,7 +67,7 @@ const Highlight = () => {
         <div className='app'>
             <div className='contentBox'>
                 <img src={logo} />
-                <p className='languageSwitcher'><span onClick={switchLanguagetoSr}>SR</span> / <span onClick={switchLanguagetoEn}>EN</span></p>
+                <p className='languageSwitcher'><span onClick={switchLanguagetoSr} style={{color: (language === "sr")?"#F5C314":"white"}}>SR</span> / <span onClick={switchLanguagetoEn} style={{color: (language === "en")?"#F5C314":"white"}}>EN</span></p>
 
                 <div className='srb' style={{display: (language === "sr")?"block": "none"}}>
                     <div className='container'>
